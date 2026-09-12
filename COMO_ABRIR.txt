@@ -1,0 +1,1 @@
+Abra o index.html desta pasta. Não mova o index.html para fora dela. No VS Code, a pasta deve conter index.html, styles.css, script.js e a pasta assets.

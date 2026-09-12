@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sérgio Pescados — peixes e frutos do mar selecionados, frescos e entregues no litoral catarinense.">
+  <meta name="theme-color" content="#062b49">
+  <title>Sérgio Pescados | Frescor do Mar, Direto pra Sua Mesa</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span><i class="fa-solid fa-truck-fast"></i> Entrega em todo o litoral catarinense</span>
+      <a href="#contato"><i class="fa-regular fa-clock"></i> Faça seu pedido</a>
+    </div>
+  </div>
+
+  <header class="header" id="inicio">
+    <div class="container nav">
+      <a class="brand" href="#inicio" aria-label="Sérgio Pescados - início">
+        <span class="brand-mark"><i class="fa-solid fa-fish"></i></span>
+        <span>
+          <strong>SÉRGIO</strong>
+          <small>PESCADOS</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#inicio">Início</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#entrega">Entrega</a>
+        <a href="#contato">Contato</a>
+        <a class="nav-cta js-whatsapp" href="#" data-message="Olá! Vim pelo site da Sérgio Pescados e gostaria de fazer um pedido.">
+          <i class="fa-brands fa-whatsapp"></i> Pedir agora
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><i class="fa-solid fa-wave-square"></i> Qualidade que vem do mar</span>
+          <h1>Frescor do mar,<br><em>direto pra sua mesa.</em></h1>
+          <p>Peixes e frutos do mar selecionados com cuidado para levar mais sabor, qualidade e praticidade para sua casa.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary js-whatsapp" href="#" data-message="Olá! Vim pelo site da Sérgio Pescados e quero fazer um pedido.">
+              <i class="fa-brands fa-whatsapp"></i> Fazer pedido
+            </a>
+            <a class="btn btn-light" href="#produtos">Conhecer produtos <i class="fa-solid fa-arrow-down"></i></a>
+          </div>
+
+          <div class="hero-trust">
+            <div><i class="fa-solid fa-fish"></i><span>Peixes<br><b>selecionados</b></span></div>
+            <div><i class="fa-solid fa-shrimp"></i><span>Camarões<br><b>de qualidade</b></span></div>
+            <div><i class="fa-solid fa-truck-fast"></i><span>Entrega<br><b>no litoral SC</b></span></div>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <img src="./assets/sergio.pescados02.png" alt="Sérgio Pescados com peixes e frutos do mar e veículo de entrega">
+          <div class="hero-card-caption">
+            <span><i class="fa-solid fa-circle-check"></i> Produtos frescos</span>
+            <span><i class="fa-solid fa-location-dot"></i> Litoral catarinense</span>
+          </div>
+        </div>
+      </div>
+      <div class="wave"></div>
+    </section>
+
+    <section class="section products" id="produtos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Nosso catálogo</span>
+          <h2>O melhor do mar<br><span>para a sua mesa</span></h2>
+          <p>Escolha seus produtos e fale com a nossa equipe para consultar disponibilidade, cortes e condições de entrega.</p>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card reveal">
+            <div class="product-icon"><i class="fa-solid fa-fish"></i></div>
+            <h3>Peixes frescos</h3>
+            <p>Opções selecionadas para diferentes preparos, do dia a dia ao almoço especial.</p>
+            <a class="product-link js-whatsapp" href="#" data-message="Olá! Gostaria de consultar os peixes frescos disponíveis hoje.">Consultar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-icon"><i class="fa-solid fa-shrimp"></i></div>
+            <h3>Camarões</h3>
+            <p>Camarões selecionados para deixar suas receitas ainda mais saborosas.</p>
+            <a class="product-link js-whatsapp" href="#" data-message="Olá! Gostaria de consultar os camarões disponíveis e os tamanhos.">Consultar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-icon"><i class="fa-solid fa-shellfish"></i></div>
+            <h3>Ostras</h3>
+            <p>Qualidade e cuidado para você aproveitar todo o sabor do litoral.</p>
+            <a class="product-link js-whatsapp" href="#" data-message="Olá! Gostaria de consultar as ostras disponíveis.">Consultar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-icon"><i class="fa-solid fa-water"></i></div>
+            <h3>Mariscos & frutos do mar</h3>
+            <p>Variedade para montar aquele pedido completo para a família ou para uma ocasião especial.</p>
+            <a class="product-link js-whatsapp" href="#" data-message="Olá! Gostaria de consultar mariscos e outros frutos do mar disponíveis.">Consultar <i class="fa-solid fa-arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-image reveal">
+          <div class="image-frame">
+            <img src="./assets/hero-sergio-pescados.png" alt="Sérgio Pescados">
+          </div>
+          <div class="experience-badge">
+            <strong>MAR</strong>
+            <span>frescor e<br>qualidade</span>
+          </div>
+        </div>
+
+        <div class="about-copy reveal">
+          <span class="eyebrow">Sobre a Sérgio Pescados</span>
+          <h2>Do nosso mar,<br><span>para sua família.</span></h2>
+          <p>Na Sérgio Pescados, cada pedido é tratado com atenção. Trabalhamos para oferecer produtos selecionados e uma experiência simples: você escolhe, a gente prepara e entrega.</p>
+          <p>Nosso compromisso é unir <strong>frescor, qualidade e atendimento próximo</strong> em cada pedido.</p>
+
+          <div class="check-list">
+            <div><i class="fa-solid fa-check"></i> Produtos selecionados</div>
+            <div><i class="fa-solid fa-check"></i> Atendimento personalizado</div>
+            <div><i class="fa-solid fa-check"></i> Entrega em todo o litoral catarinense</div>
+          </div>
+
+          <a class="text-button js-whatsapp" href="#" data-message="Olá! Gostaria de conhecer melhor a Sérgio Pescados e fazer um pedido.">
+            Falar com a Sérgio Pescados <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="delivery section" id="entrega">
+      <div class="container delivery-inner">
+        <div class="delivery-copy reveal">
+          <span class="eyebrow eyebrow-light">Entrega</span>
+          <h2>Você escolhe.<br><span>A Sérgio Pescados entrega.</span></h2>
+          <p>Receba seus pescados no conforto da sua casa, com praticidade e atendimento direto pelo WhatsApp.</p>
+
+          <div class="delivery-points">
+            <div><i class="fa-solid fa-truck-fast"></i><span><b>Entrega em todo o litoral catarinense</b><small>Consulte disponibilidade para sua região.</small></span></div>
+            <div><i class="fa-brands fa-whatsapp"></i><span><b>Pedido rápido pelo WhatsApp</b><small>Converse com nossa equipe e monte seu pedido.</small></span></div>
+            <div><i class="fa-solid fa-box-open"></i><span><b>Pedido preparado com cuidado</b><small>Mais praticidade do pedido à entrega.</small></span></div>
+          </div>
+
+          <a class="btn btn-white js-whatsapp" href="#" data-message="Olá! Quero consultar a entrega da Sérgio Pescados para minha região.">
+            <i class="fa-brands fa-whatsapp"></i> Consultar entrega
+          </a>
+        </div>
+
+        <div class="delivery-visual reveal">
+          <div class="truck-card">
+            <div class="truck-top"><i class="fa-solid fa-route"></i><span>ENTREGA</span></div>
+            <div class="truck-icon"><i class="fa-solid fa-truck"></i></div>
+            <strong>Litoral<br>catarinense</strong>
+            <small>Do nosso mar para a sua mesa.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quality">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <span class="eyebrow">Por que escolher a gente?</span>
+          <h2>Qualidade em <span>cada detalhe.</span></h2>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit reveal"><i class="fa-solid fa-snowflake"></i><h3>Frescor</h3><p>Cuidado com o produto para preservar sabor e qualidade.</p></div>
+          <div class="benefit reveal"><i class="fa-solid fa-medal"></i><h3>Seleção</h3><p>Produtos escolhidos pensando no que chega à sua mesa.</p></div>
+          <div class="benefit reveal"><i class="fa-solid fa-headset"></i><h3>Atendimento</h3><p>Contato direto para tirar dúvidas e montar seu pedido.</p></div>
+          <div class="benefit reveal"><i class="fa-solid fa-truck-fast"></i><h3>Praticidade</h3><p>Receba seus pescados sem precisar sair de casa.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta section" id="contato">
+      <div class="container cta-inner reveal">
+        <div>
+          <span class="eyebrow eyebrow-light">Faça seu pedido</span>
+          <h2>Que tal levar o sabor<br>do mar para casa?</h2>
+          <p>Chame a Sérgio Pescados no WhatsApp e consulte os produtos disponíveis.</p>
+        </div>
+        <a class="btn btn-white btn-large js-whatsapp" href="#" data-message="Olá! Vim pelo site da Sérgio Pescados e gostaria de fazer um pedido.">
+          <i class="fa-brands fa-whatsapp"></i> Pedir pelo WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="#inicio">
+          <span class="brand-mark"><i class="fa-solid fa-fish"></i></span>
+          <span><strong>SÉRGIO</strong><small>PESCADOS</small></span>
+        </a>
+        <p>Frescor do Mar, Direto pra Sua Mesa.</p>
+      </div>
+
+      <div>
+        <h4>Menu</h4>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre nós</a>
+        <a href="#entrega">Entrega</a>
+        <a href="#contato">Contato</a>
+      </div>
+
+      <div>
+        <h4>Atendimento</h4>
+        <span>Litoral catarinense</span>
+        <span>Pedidos pelo WhatsApp</span>
+        <a class="js-whatsapp" href="#" data-message="Olá! Vim pelo site e gostaria de falar com a Sérgio Pescados.">Falar conosco</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© <span id="year"></span> Sérgio Pescados. Todos os direitos reservados.</span>
+        <span>Feito com <i class="fa-solid fa-heart"></i> para quem ama o sabor do mar.</span>
+      </div>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp js-whatsapp" href="#" aria-label="Falar pelo WhatsApp" data-message="Olá! Vim pelo site da Sérgio Pescados e gostaria de fazer um pedido.">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="./script.js"></script>
+</body>
+</html>
